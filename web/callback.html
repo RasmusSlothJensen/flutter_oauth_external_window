@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sign In Succeeded</title>
+    <meta name="description"
+        content="Simple, quick, standalone responsive placeholder without any additional resources" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body></body>
+<script>
+    window.opener.postMessage(
+        {
+            type: "callback",
+            url: window.location.href,
+        },
+        "*"
+    );
+</script>
+
+</html>
